@@ -1,0 +1,57 @@
+/*reset*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*Navbar*/
+.navbar {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     background-color: #333;
+     color: white;
+     padding: 16px 30px;
+}
+.logo {
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;       
+}
+.nav-links  ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+}
+/*services section*/
+.services {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    padding: 30px;
+}
+.card {
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    text-align: center;
+    padding: 30px;
+    flex: 1;
+}
+/*Responsive */
+@media (max-width: 768px) {
+  .services {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav-links ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+
