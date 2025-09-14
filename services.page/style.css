@@ -42,6 +42,11 @@
     padding: 30px;
     flex: 1;
 }
+.card:hover {
+     transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    transition: all 0.3s ease;
+}
 /*Responsive */
 @media (max-width: 768px) {
   .services {
