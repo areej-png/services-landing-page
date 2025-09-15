@@ -20,21 +20,22 @@ A responsive services landing page built with HTML and CSS to practice layout an
 3. Run `index.html` in your browser
 
 ## Future Improvements
-- Add JavaScript functionality for Add to Cart and Cart total calculation
+- Contact Form with Validation
 
-- Implement Product Details Page (click on product → open detailed page)
+- Testimonials/Reviews section
 
-- Add a Search bar to filter products
+- Blog/Articles section
 
-- Add Category filter & sorting (price low-high, latest, etc.)
+- Newsletter Subscription
 
-- Add a Footer with useful links (Terms, Privacy Policy, Contact info)
+- Service Pricing Table
 
-- Add Responsive Hero Banner with background image/CTA button
+- Responsive Hero Section with Call-to-Action
+
+- Footer with social links, privacy, contact
 
 - Improve UI with CSS animations & hover transitions
 
-- Later: Add a Dark Mode toggle for modern look
-
+- Later: Add Dark Mode toggle for modern look
 ## License
 This project is licensed under the MIT License - feel free to use and modify.
